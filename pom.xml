@@ -3,11 +3,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.extendedmind</groupId>
-  <artifactId>neo4j-backup-generate</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>neo4j-backup-generator</artifactId>
+  <version>2.0.1</version>
   <packaging>jar</packaging>
-  <name>Extended Mind :: Neo4j Backup Generate</name>
-  <url>https://github.com/extendedmind/extendedmind</url>
+  <name>Extended Mind :: Neo4j Backup Generator</name>
+  <url>https://github.com/extendedmind/neo4j-backup-generator</url>
   <inceptionYear>2013</inceptionYear>
 
   <licenses>
@@ -19,9 +19,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:extendedmind/extendedmind.git</connection>
-    <developerConnection>scm:git:git@github.com:extendedmind/extendedmind.git</developerConnection>
-    <url>git@github.com:extendedmind/extendedmind.git</url>
+    <connection>scm:git:git@github.com:extendedmind/neo4j-backup-generator.git</connection>
+    <developerConnection>scm:git:git@github.com:extendedmind/neo4j-backup-generator.git</developerConnection>
+    <url>git@github.com:extendedmind/neo4j-backup-generator.git</url>
   </scm>
 
   <developers>
@@ -33,7 +33,7 @@
   </developers>
 
   <properties>
-    <neo4j.version>2.0.0-RC1</neo4j.version>
+    <neo4j.version>2.0.1</neo4j.version>
   </properties>
 
   <dependencies>
